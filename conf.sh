@@ -2,17 +2,21 @@ FONT="./inter/Inter-Light.otf"
 CANVAS_SIZE="1920x1080"
 CANVAS_COLOR="#000000"
 
+# IMPORTANT
+bgdir="${HOME}/.local/bin/bg-schedule/converted.png"
+#bgdir="${HOME}/Code/scripts/bg-schedule/converted.png"
+
 OUTPUT_FILENAME="output.png"
 INPUT_FILENAME="input.png"
+WALLPAPERS_DIRECTORY="${HOME}/Pictures/renders"
 
-LOGO=$(find "./img" -type f | shuf -n 1)
+LOGO=$(find $WALLPAPERS_DIRECTORY -type f | shuf -n 1)
 
-TITLE="DSchedule"
 TITLE_FS=30
 NORMAL_FS=25
 
 # Schedule
-T1=("Recite" "the" "national" "anthem")
+T1="Recite the national anthem"
 T2="Write a poem about lettuces"
 T3="Watch anime ilegally"
 T4="Practice bird singing"
