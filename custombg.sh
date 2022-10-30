@@ -1,5 +1,5 @@
 #! /bin/bash
-source ./conf.sh
+source "${HOME}/Code/scripts/bg-schedule/conf.sh"
 
 # SET THEME
 if [[ `gsettings get org.gnome.desktop.interface color-scheme` =~ 'dark' ]];
