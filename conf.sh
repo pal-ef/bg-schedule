@@ -1,3 +1,4 @@
+# Specify absolute path
 FONT="./inter/Inter-Light.otf"
 CANVAS_SIZE="1920x1080"
 CANVAS_COLOR="#000000"
