@@ -1,32 +1,31 @@
 # Specify absolute path
-FONT="./inter/Inter-Light.otf"
+# IMPORTANT: insert the absolute path to the program's folder
+ABS_PATH="$HOME/Code/scripts/bg-schedule"
+WALLPAPERS_DIRECTORY="${HOME}/Pictures/renders"
+FONT="${ABS_PATH}/inter/Inter-Light.otf"
+bgdir="${ABS_PATH}/converted.png"
 CANVAS_SIZE="1920x1080"
 CANVAS_COLOR="#000000"
 
-# IMPORTANT
-bgdir="${HOME}/.local/bin/bg-schedule/converted.png"
-#bgdir="${HOME}/Code/scripts/bg-schedule/converted.png"
-
 OUTPUT_FILENAME="output.png"
 INPUT_FILENAME="input.png"
-WALLPAPERS_DIRECTORY="${HOME}/Pictures/renders"
 
 LOGO=$(find $WALLPAPERS_DIRECTORY -type f | shuf -n 1)
 
 TITLE_FS=30
 NORMAL_FS=25
 
-# Schedule
-T1="Recite the national anthem"
-T2="Write a poem about lettuces"
-T3="Watch anime ilegally"
-T4="Practice bird singing"
-T5="Math for noobs"
-T6="Take a shit"
-T7="Eat something"
-T8="Drink some water"
+# Schedule (write your tasks)
+T1="Wake Up"
+T2="Morning Exercise"
+T3="Breakfast"
+T4="Virtual Class"
+T5="Learn to code"
+T6="Take the dogs for a walk"
+T7="Meal"
+T8="Write your journal"
 T9="Be like water"
 TA="Enjoy the landscape"
-TB="Fight with dwarfs about socialism"
-TC="Write a hateful asd"
-TD="Write something"
+TB="Read a book"
+TC="Shower"
+TD="Sleep"

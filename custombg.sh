@@ -1,4 +1,6 @@
 #! /bin/bash
+
+# WRITE THE SCRIPT FOLDER'S ABSOLUTE PATH
 source "${HOME}/Code/scripts/bg-schedule/conf.sh"
 
 # SET THEME
