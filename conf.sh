@@ -16,7 +16,7 @@ TITLE_FS=30
 NORMAL_FS=25
 
 # Schedule (write your tasks)
-T1="Wake Up"
+T1="Wake Up Time"
 T2="Morning Exercise"
 T3="Breakfast"
 T4="Virtual Class"
